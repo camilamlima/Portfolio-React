@@ -1,7 +1,7 @@
 import React from 'react'
 import instagram from './instagram.png'
 import facebook from './facebook.png'
-import twitter from './twitter.png'
+import cv from './cv.png'
 import linkedin from './linkedin.png'
 import './RedesSociais.css'
 
@@ -14,8 +14,8 @@ function RedesSociais(props){
             <a href="https://www.facebook.com/camila.lima.5811877">
                 <img src={facebook} alt="Ícone do Facebook"/>
             </a>
-            <a href=">https://twitter.com.br">
-                <img src={twitter} alt="Ícone do Twitter"/>
+            <a href="/cv/camila-bruschetta/index.html">
+                <img src={cv} alt="Ícone do CV"/>
             </a>
             <a href="https://www.linkedin.com/in/camilamlima/">
                 <img src={linkedin} alt="Ícone do Linkedin"/>
